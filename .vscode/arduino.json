@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "sketch": "temp.ino",
+    "programmer": "Atmel JTAGICE3 (ISP mode)"
+}
