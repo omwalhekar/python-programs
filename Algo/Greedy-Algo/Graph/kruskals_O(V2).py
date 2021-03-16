@@ -27,7 +27,8 @@ class Graph:
                 y = self.find_parent(parent, j[0])
                 if x == y:
                     return True
-                self.union(parent, x, y)
+                parent[x] = y
+        return False
 
     def shortestPath(self, arr):
         edgeArr = []

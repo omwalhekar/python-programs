@@ -35,9 +35,9 @@ class Knapsack:
 
 
 if __name__ == "__main__":
-    wt = [10, 40, 20, 30]
-    val = [60, 40, 100, 120]
-    capacity = 50
+    val = [40, 30, 20]
+    wt = [20, 10, 5]
+    capacity = 20
 
     # Function call
     maxValue = Knapsack.getMaxValue(wt, val, capacity)
